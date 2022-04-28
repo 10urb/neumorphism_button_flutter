@@ -8,7 +8,7 @@ class NeumorphismButton extends StatefulWidget {
 }
 
 class _NeumorphismButtonState extends State<NeumorphismButton> {
-  bool _isElevated = false;
+  bool _isElevated = true;
   @override
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: _scaffoldBackgroundColor,
