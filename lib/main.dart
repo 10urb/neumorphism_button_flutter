@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:neumorphism_button_flutter/neumorphism_button.dart';
 
 void main() => runApp(App());
 
@@ -7,16 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Material App Bar'),
-        ),
-        body: Center(
-          child: Container(
-            child: Text('Hello World'),
-          ),
-        ),
-      ),
+      home: NeumorphismButton(),
     );
   }
 }
